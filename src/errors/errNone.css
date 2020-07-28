@@ -1,0 +1,29 @@
+.err-center-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.err-subtitle {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.1vh;
+    font-size: 3vh;
+}
+
+.err-search-button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(233, 235, 243);
+    background-color: rgb(7, 31, 61);
+    outline: none;
+    border: none;
+    font-size: 4vh;
+    padding: 4vh;
+    cursor: pointer;
+}
+
+.err-search-button:hover {
+    background-color: rgb(16, 58, 110);
+}

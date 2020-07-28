@@ -1,0 +1,12 @@
+.load-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+}
+
+.load-big {
+    font-size: 15vh;
+}
