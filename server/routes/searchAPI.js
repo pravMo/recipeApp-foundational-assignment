@@ -11,7 +11,6 @@ module.exports = (app) => {
     app.post('/search', (req, res) => {
 
         search = req.body.query //query is name property in form 
-        console.log(search)
 
         if (search.length === 0) {
             res.redirect('http://localhost:3000/errorNone');
@@ -26,7 +25,6 @@ module.exports = (app) => {
             .then(res => res.json())
             .then(data => {
                 res.send({ data });
-                console.log(data)
             })
             .catch(err => {
                 console.log(err)
