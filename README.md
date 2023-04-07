@@ -3,7 +3,7 @@ Recipe App
 Built a application to search recipes!
 
 Applied a bit of everything I have learned to showcase:
-React, React Router, React Hooks. React Lifecycle Methods, Express, Dynamic Routing, RESTfull API
+React, React Router, React Hooks. React Lifecycle Methods, Express, Dynamic Routing, RESTfulAPI
   
 API
 Search meal by name
